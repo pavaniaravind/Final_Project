@@ -1,0 +1,48 @@
+button[type="submit"] {
+    background-color: #ffaa00;
+    color: #212529!important;
+}
+
+button[type="submit"]:hover {
+    background-color: #ffb92d;
+}
+
+.list-group-item {
+    border: none;
+}
+
+.card {
+    max-width: 18rem;
+}
+
+.card-header {
+    background-color: #00d5ff!important;
+}
+
+.card-body {
+    color: #212529!important;
+}
+
+.dropdown-toggle {
+    background-color: #ffaa00;
+    color: #212529!important;
+}
+
+.dropdown-toggle:hover {
+    background-color: #ffb92d;
+}
+
+.footer {
+    /* position: fixed;
+    left: 0;
+    bottom: 0; */
+    /* width: 100%; */
+    background-color: #00d5ff;
+    color: #212529;
+    text-align: center;
+    font-weight: bold;
+}
+
+.footer p {
+    margin-bottom: 0;
+}

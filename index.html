@@ -67,19 +67,20 @@
             </div>
           </div>
           <div class="container">
+            <h2 class = "Tasks-heading">Tasks</h2>
             <div class="row">
-                <div class="col-4">
-                    <ul id ="taskslist" class="list-group">
+                <div class="col" id = "taskslist">
+                    <ul class="list-group">
                         <li class="list-group-item">
                             <div class="card border-success mb-3" style="max-width: 18rem;">
-                            <div class="card-header bg-transparent border-success font-weight-bold">In Progress</div>
+                            <div class="card-header bg-transparent border-success font-weight-bold">status</div>
                             <div class="card-body text-success">
-                                <h5 class="card-title">Task Name</h5>
-                                 <p class="card-text">Assigned to: <br>Due Date:<br></p>
+                                <h5 class="card-title">Task Name:</h5>
+                                 <p class="card-text">Assigned to:  <br>Due Date: <br></p>
                             </div>
-                            <div class="card-footer bg-transparent border-success"><button type="button" class="btn btn-primary">Start Task</button>
-                            <button type="button" class="btn btn-success">Mark as Done</button></div>
-                        </li>
+                            <div class="card-footer bg-transparent border-success"><button type="button" class="btn btn-success done-button">Mark as Done</button>
+                            <button type="button" class="btn btn-danger delete-button">Delete</button></div>
+                         </li>` 
                     </ul>
                 </div>
             </div>
@@ -91,5 +92,7 @@
             Date : 4/4/2022</p>
         </div>
     </footer>
+    <script src="js/taskManager.js"></script>
+    <script src="js/index.js"></script>
 </body>    
 </html>
